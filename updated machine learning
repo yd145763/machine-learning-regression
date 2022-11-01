@@ -12,6 +12,8 @@ from sklearn.linear_model import LinearRegression
 from sklearn.linear_model import Lasso
 from sklearn.model_selection import train_test_split
 import numpy as np
+from sklearn.metrics import mean_squared_error
+from sklearn.linear_model import Ridge
 
 #reading csv and converting the date format
 share_df = pd.read_csv("C:\\Users\\limyu\\Downloads\\stock_price.csv")
@@ -68,23 +70,51 @@ print(list(df.columns))
 
 
 
-#use for loop to determine the reg score
-numbers = 0,1,2,3,4,5,6,7
+#use for loop to determine the variables
+numbers = [0,1,2,3,4,5,6,7]
+factors = ["Share_Yesterday_Close", "Share_Yesterday_Volume", "Dow_Price", "Dow_High", "Dow_Low", "USD_RM", "SGD_RM", "KLSE_Open"]
 
-for number in numbers:
+for number, factor in zip(numbers, factors):
     X = df.drop("Share_Open", axis=1).values[:,number]
     X= X.reshape(-1, 1)
     y = df["Share_Open"].values
-    X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.3, random_state=42)
+    X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.4, random_state=42)
     reg_all = LinearRegression()
     reg_all.fit(X_train, y_train)
     y_pred = reg_all.predict(X_test)
     a = reg_all.score(X_test, y_test)
-    print(a)
+    print(factor, ":Regression ", a)
+print()
+for number, factor in zip(numbers, factors):
+    X = df.drop("Share_Open", axis=1).values[:,number]
+    X= X.reshape(-1, 1)
+    y = df["Share_Open"].values
+    X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.4, random_state=42)
+    reg_all = LinearRegression()
+    reg_all.fit(X_train, y_train)
+    y_pred = reg_all.predict(X_test)
+    b = mean_squared_error(y_test, y_pred, squared=False)
+    print(factor, ":Mean Squared Error ", b)
+print()
+scores = []
+for number, factor in zip(numbers, factors):
+    X = df.drop("Share_Open", axis=1).values[:,number]
+    X= X.reshape(-1, 1)
+    y = df["Share_Open"].values
+    X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.4, random_state=42)
+    ridge = Ridge(alpha=0.1)
+    ridge.fit(X_train, y_train)
+    y_pred = ridge.predict(X_test)
+    scores.append(ridge.score(X_test, y_test))
+for number, factor, score in zip(numbers, factors, scores):
+    print(factor, " :Ridge Regression ", score)
+print()
+for number, factor in zip(numbers, factors):
+    X = df.drop("Share_Open", axis=1).values[:,number]
+    X= X.reshape(-1, 1)
+    y = df["Share_Open"].values
+    lasso = Lasso(alpha=0.1)
+    lasso_coef = lasso.fit(X, y).coef_
+    print(factor, ": Lasso Coefficient ", lasso_coef)
 
-
-
-
-
-
-
+    
