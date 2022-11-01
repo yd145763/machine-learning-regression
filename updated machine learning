@@ -1,5 +1,3 @@
-# machine-learning-regression
-
 # -*- coding: utf-8 -*-
 """
 Spyder Editor
@@ -21,6 +19,14 @@ share_df['Date'] = pd.to_datetime(share_df['Date'].astype(str), format='%Y%m%d')
 print(type(share_df["Date"]))
 print(list(share_df.columns))
 print(share_df.shape)
+print(share_df.head())
+share_df["y_Open"] = share_df["Open"].shift(periods=1)
+share_df["y_High"] = share_df["High"].shift(periods=1)
+share_df["y_Low"] = share_df["Low"].shift(periods=1)
+share_df["y_Close"] = share_df["Close"].shift(periods=1)
+share_df["y_Volume"] = share_df["Volume"].shift(periods=1)
+share_df = share_df.dropna()
+print(share_df.head())
 
 #reading additional csv, converting date formate, and inverse the row arrangements, remove the space and comma
 dow_df = pd.read_csv("C:\\Users\\limyu\\Downloads\\DJI.csv")
@@ -55,14 +61,15 @@ print(list(sdrk_df.columns))
 print(sdrk_df.shape)
 
 #pick which column you like from the combined tables as factors
-df = pd.DataFrame(list(zip(sdrk_df["Open_s"], sdrk_df["Price"], sdrk_df["High_d"], sdrk_df["USD"], sdrk_df["Open"])), columns =['Share_Open', 'Dow_Price', 'Dow_High', 'USD_RM', 'KLSE_Open'])
+df = pd.DataFrame(list(zip(sdrk_df["Open_s"], sdrk_df["y_Close"], sdrk_df["y_Volume"], sdrk_df["Price"], sdrk_df["High_d"], sdrk_df["Low_d"], sdrk_df["USD"], sdrk_df["SGD"], sdrk_df["Open"])), columns =['Share_Open', 'Share_Yesterday_Close', 'Share_Yesterday_Volume', 'Dow_Price', 'Dow_High', 'Dow_Low','USD_RM', 'SGD_RM','KLSE_Open'])
 print(df.head())
 print(df.shape)
+print(list(df.columns))
 
 
 
 #use for loop to determine the reg score
-numbers = 0,1,2,3
+numbers = 0,1,2,3,4,5,6,7
 
 for number in numbers:
     X = df.drop("Share_Open", axis=1).values[:,number]
