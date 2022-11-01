@@ -1,0 +1,83 @@
+# machine-learning-regression
+
+# -*- coding: utf-8 -*-
+"""
+Spyder Editor
+
+This is a temporary script file.
+"""
+# import libraries
+import pandas as pd
+import matplotlib.pyplot as plt
+import matplotlib.ticker as ticker
+from sklearn.linear_model import LinearRegression
+from sklearn.linear_model import Lasso
+from sklearn.model_selection import train_test_split
+import numpy as np
+
+#reading csv and converting the date format
+share_df = pd.read_csv("C:\\Users\\limyu\\Downloads\\stock_price.csv")
+share_df['Date'] = pd.to_datetime(share_df['Date'].astype(str), format='%Y%m%d')
+print(type(share_df["Date"]))
+print(list(share_df.columns))
+print(share_df.shape)
+
+#reading additional csv, converting date formate, and inverse the row arrangements, remove the space and comma
+dow_df = pd.read_csv("C:\\Users\\limyu\\Downloads\\DJI.csv")
+dow_df=dow_df.iloc[::-1]
+dow_df = dow_df.replace(',','', regex=True)
+dow_df = dow_df.replace(' ','', regex=True)
+dow_df['Date'] = pd.to_datetime(dow_df['Date'].astype(str), format='%m/%d/%Y')
+print(type(dow_df["Date"]))
+print(list(dow_df.columns))
+print(dow_df.shape)
+
+rate_df = pd.read_csv("C:\\Users\\limyu\\Downloads\\exchange-rates.csv")
+rate_df = rate_df.dropna()
+rate_df.rename(columns = {'Unnamed: 0':'Date'}, inplace = True)
+rate_df['Date'] = pd.to_datetime(rate_df['Date'])
+print(type(rate_df["Date"]))
+print(list(rate_df.columns))
+print(rate_df.shape)
+
+klse_df = pd.read_csv("C:\\Users\\limyu\\Downloads\\KLSE.csv")
+klse_df['Date'] = pd.to_datetime(klse_df['Date'])
+print(type(klse_df["Date"]))
+print(list(klse_df.columns))
+print(klse_df.shape)
+
+#combining the tables
+sd_df = share_df.merge(dow_df, on='Date', suffixes=('_s','_d'))
+sdr_df = sd_df.merge(rate_df, on = "Date")
+sdrk_df = sdr_df.merge(klse_df, on = "Date")
+print(sdrk_df.head())
+print(list(sdrk_df.columns))
+print(sdrk_df.shape)
+
+#pick which column you like from the combined tables as factors
+df = pd.DataFrame(list(zip(sdrk_df["Open_s"], sdrk_df["Price"], sdrk_df["High_d"], sdrk_df["USD"], sdrk_df["Open"])), columns =['Share_Open', 'Dow_Price', 'Dow_High', 'USD_RM', 'KLSE_Open'])
+print(df.head())
+print(df.shape)
+
+
+
+#use for loop to determine the reg score
+numbers = 0,1,2,3
+
+for number in numbers:
+    X = df.drop("Share_Open", axis=1).values[:,number]
+    X= X.reshape(-1, 1)
+    y = df["Share_Open"].values
+    X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.3, random_state=42)
+    reg_all = LinearRegression()
+    reg_all.fit(X_train, y_train)
+    y_pred = reg_all.predict(X_test)
+    a = reg_all.score(X_test, y_test)
+    print(a)
+
+
+
+
+
+
+
