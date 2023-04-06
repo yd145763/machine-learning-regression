@@ -1,0 +1,217 @@
+variable,variable_en,variable_bm,sex,year,mean,median,recipients
+overall,Overall,Keseluruhan,overall,2010,1936.0,1500.0,7149200
+overall,Overall,Keseluruhan,overall,2011,1959.0,1500.0,7634000
+overall,Overall,Keseluruhan,overall,2012,2052.0,1566.0,7782900
+overall,Overall,Keseluruhan,overall,2013,2186.0,1700.0,7903100
+overall,Overall,Keseluruhan,overall,2014,2377.0,1800.0,8392400
+overall,Overall,Keseluruhan,overall,2015,2487.0,1942.0,8348600
+overall,Overall,Keseluruhan,overall,2016,2657.0,2000.0,8424100
+overall,Overall,Keseluruhan,overall,2017,2879.0,2160.0,8677100
+overall,Overall,Keseluruhan,overall,2018,3087.0,2308.0,8761200
+overall,Overall,Keseluruhan,overall,2019,3224.0,2442.0,9195200
+overall,Overall,Keseluruhan,overall,2020,2933.0,2062.0,9390700
+overall,Overall,Keseluruhan,overall,2021,3036.9,2250.0,9711900
+sector_1,Agriculture,Pertanian,overall,2010,1159.0,780.0,223200
+sector_1,Agriculture,Pertanian,overall,2011,1182.0,800.0,181000
+sector_1,Agriculture,Pertanian,overall,2012,1229.0,900.0,202300
+sector_1,Agriculture,Pertanian,overall,2013,1218.0,900.0,232600
+sector_1,Agriculture,Pertanian,overall,2014,1351.0,1044.0,237600
+sector_1,Agriculture,Pertanian,overall,2015,1543.0,1130.0,246200
+sector_1,Agriculture,Pertanian,overall,2016,1729.0,1200.0,212500
+sector_1,Agriculture,Pertanian,overall,2017,1825.0,1350.0,197700
+sector_1,Agriculture,Pertanian,overall,2018,1865.0,1392.0,216800
+sector_1,Agriculture,Pertanian,overall,2019,1997.0,1531.0,223900
+sector_1,Agriculture,Pertanian,overall,2020,1598.0,1291.0,246300
+sector_1,Agriculture,Pertanian,overall,2021,1775.9,1490.0,254000
+sector_2,Mining and quarrying,Perlombongan dan pengkuarian,overall,2010,3544.0,2800.0,52400
+sector_2,Mining and quarrying,Perlombongan dan pengkuarian,overall,2011,3557.0,2400.0,63000
+sector_2,Mining and quarrying,Perlombongan dan pengkuarian,overall,2012,3441.0,2500.0,72000
+sector_2,Mining and quarrying,Perlombongan dan pengkuarian,overall,2013,3558.0,2800.0,68200
+sector_2,Mining and quarrying,Perlombongan dan pengkuarian,overall,2014,5016.0,3500.0,70500
+sector_2,Mining and quarrying,Perlombongan dan pengkuarian,overall,2015,4295.0,3600.0,93500
+sector_2,Mining and quarrying,Perlombongan dan pengkuarian,overall,2016,4940.0,3690.0,99800
+sector_2,Mining and quarrying,Perlombongan dan pengkuarian,overall,2017,5706.0,3700.0,82600
+sector_2,Mining and quarrying,Perlombongan dan pengkuarian,overall,2018,6017.0,3703.0,82000
+sector_2,Mining and quarrying,Perlombongan dan pengkuarian,overall,2019,6154.0,3968.0,82300
+sector_2,Mining and quarrying,Perlombongan dan pengkuarian,overall,2020,5064.0,3402.0,70500
+sector_2,Mining and quarrying,Perlombongan dan pengkuarian,overall,2021,5039.5,3921.0,67500
+sector_3,Manufacturing,Pembuatan,overall,2010,1691.0,1270.0,1480400
+sector_3,Manufacturing,Pembuatan,overall,2011,1709.0,1320.0,1606700
+sector_3,Manufacturing,Pembuatan,overall,2012,1884.0,1500.0,1594600
+sector_3,Manufacturing,Pembuatan,overall,2013,1969.0,1500.0,1497800
+sector_3,Manufacturing,Pembuatan,overall,2014,2154.0,1700.0,1617900
+sector_3,Manufacturing,Pembuatan,overall,2015,2187.0,1610.0,1514000
+sector_3,Manufacturing,Pembuatan,overall,2016,2348.0,1800.0,1557400
+sector_3,Manufacturing,Pembuatan,overall,2017,2443.0,1900.0,1654600
+sector_3,Manufacturing,Pembuatan,overall,2018,2565.0,1959.0,1590100
+sector_3,Manufacturing,Pembuatan,overall,2019,2616.0,1967.0,1694300
+sector_3,Manufacturing,Pembuatan,overall,2020,2542.0,1908.0,1770900
+sector_3,Manufacturing,Pembuatan,overall,2021,2606.3,1976.0,1899600
+sector_4,Construction,Pembinaan,overall,2010,1646.0,1200.0,582700
+sector_4,Construction,Pembinaan,overall,2011,1767.0,1300.0,639200
+sector_4,Construction,Pembinaan,overall,2012,1814.0,1300.0,625800
+sector_4,Construction,Pembinaan,overall,2013,1908.0,1500.0,640400
+sector_4,Construction,Pembinaan,overall,2014,2024.0,1500.0,692100
+sector_4,Construction,Pembinaan,overall,2015,2131.0,1560.0,676000
+sector_4,Construction,Pembinaan,overall,2016,2220.0,1630.0,679800
+sector_4,Construction,Pembinaan,overall,2017,2587.0,1900.0,682400
+sector_4,Construction,Pembinaan,overall,2018,2821.0,2164.0,676300
+sector_4,Construction,Pembinaan,overall,2019,2854.0,2169.0,682600
+sector_4,Construction,Pembinaan,overall,2020,2557.0,1856.0,690800
+sector_4,Construction,Pembinaan,overall,2021,2347.1,1781.0,683500
+sector_5,Services,Perkhidmatan,overall,2010,2064.0,1615.0,4810500
+sector_5,Services,Perkhidmatan,overall,2011,2068.0,1600.0,5144200
+sector_5,Services,Perkhidmatan,overall,2012,2143.0,1706.0,5288200
+sector_5,Services,Perkhidmatan,overall,2013,2301.0,1814.0,5464000
+sector_5,Services,Perkhidmatan,overall,2014,2492.0,2000.0,5774200
+sector_5,Services,Perkhidmatan,overall,2015,2618.0,2000.0,5818900
+sector_5,Services,Perkhidmatan,overall,2016,2784.0,2165.0,5874500
+sector_5,Services,Perkhidmatan,overall,2017,3028.0,2260.0,6059800
+sector_5,Services,Perkhidmatan,overall,2018,3253.0,2431.0,6196100
+sector_5,Services,Perkhidmatan,overall,2019,3426.0,2672.0,6512100
+sector_5,Services,Perkhidmatan,overall,2020,3103.0,2268.0,6612200
+sector_5,Services,Perkhidmatan,overall,2021,3253.5,2550.0,6807300
+overall,Overall,Keseluruhan,male,2010,2003.0,1500.0,4432600
+overall,Overall,Keseluruhan,male,2011,2035.0,1500.0,4680100
+overall,Overall,Keseluruhan,male,2012,2126.0,1600.0,4745000
+overall,Overall,Keseluruhan,male,2013,2259.0,1800.0,4784200
+overall,Overall,Keseluruhan,male,2014,2455.0,1888.0,5070700
+overall,Overall,Keseluruhan,male,2015,2558.0,2000.0,5049400
+overall,Overall,Keseluruhan,male,2016,2741.0,2000.0,5034400
+overall,Overall,Keseluruhan,male,2017,2953.0,2170.0,5151200
+overall,Overall,Keseluruhan,male,2018,3174.0,2342.0,5209800
+overall,Overall,Keseluruhan,male,2019,3304.0,2477.0,5435900
+overall,Overall,Keseluruhan,male,2020,2963.0,2093.0,5551000
+overall,Overall,Keseluruhan,male,2021,3084.7,2315.0,5733900
+sector_1,Agriculture,Pertanian,male,2010,1219.0,800.0,177500
+sector_1,Agriculture,Pertanian,male,2011,1235.0,850.0,146100
+sector_1,Agriculture,Pertanian,male,2012,1267.0,910.0,163900
+sector_1,Agriculture,Pertanian,male,2013,1205.0,960.0,184300
+sector_1,Agriculture,Pertanian,male,2014,1463.0,1150.0,182400
+sector_1,Agriculture,Pertanian,male,2015,1646.0,1200.0,197600
+sector_1,Agriculture,Pertanian,male,2016,1800.0,1300.0,174400
+sector_1,Agriculture,Pertanian,male,2017,1917.0,1400.0,156400
+sector_1,Agriculture,Pertanian,male,2018,1958.0,1462.0,174200
+sector_1,Agriculture,Pertanian,male,2019,2088.0,1560.0,178900
+sector_1,Agriculture,Pertanian,male,2020,1623.0,1291.0,195400
+sector_1,Agriculture,Pertanian,male,2021,1770.2,1490.0,202000
+sector_2,Mining and quarrying,Perlombongan dan pengkuarian,male,2010,3592.0,2500.0,42300
+sector_2,Mining and quarrying,Perlombongan dan pengkuarian,male,2011,3361.0,2070.0,49500
+sector_2,Mining and quarrying,Perlombongan dan pengkuarian,male,2012,3524.0,2500.0,55600
+sector_2,Mining and quarrying,Perlombongan dan pengkuarian,male,2013,3562.0,2800.0,53300
+sector_2,Mining and quarrying,Perlombongan dan pengkuarian,male,2014,5228.0,3500.0,53300
+sector_2,Mining and quarrying,Perlombongan dan pengkuarian,male,2015,4376.0,3600.0,80900
+sector_2,Mining and quarrying,Perlombongan dan pengkuarian,male,2016,5075.0,3690.0,76100
+sector_2,Mining and quarrying,Perlombongan dan pengkuarian,male,2017,5892.0,3700.0,66000
+sector_2,Mining and quarrying,Perlombongan dan pengkuarian,male,2018,6076.0,3781.0,64700
+sector_2,Mining and quarrying,Perlombongan dan pengkuarian,male,2019,6127.0,3968.0,65500
+sector_2,Mining and quarrying,Perlombongan dan pengkuarian,male,2020,5298.0,3254.0,51300
+sector_2,Mining and quarrying,Perlombongan dan pengkuarian,male,2021,5293.4,4015.0,46800
+sector_3,Manufacturing,Pembuatan,male,2010,1900.0,1500.0,944500
+sector_3,Manufacturing,Pembuatan,male,2011,1921.0,1500.0,1013000
+sector_3,Manufacturing,Pembuatan,male,2012,2125.0,1600.0,1028099
+sector_3,Manufacturing,Pembuatan,male,2013,2217.0,1800.0,953200
+sector_3,Manufacturing,Pembuatan,male,2014,2396.0,1900.0,1038800
+sector_3,Manufacturing,Pembuatan,male,2015,2414.0,1960.0,981700
+sector_3,Manufacturing,Pembuatan,male,2016,2623.0,2000.0,984100
+sector_3,Manufacturing,Pembuatan,male,2017,2676.0,2170.0,1052100
+sector_3,Manufacturing,Pembuatan,male,2018,2839.0,2254.0,1007300
+sector_3,Manufacturing,Pembuatan,male,2019,2904.0,2185.0,1059100
+sector_3,Manufacturing,Pembuatan,male,2020,2714.0,2062.0,1111800
+sector_3,Manufacturing,Pembuatan,male,2021,2724.4,2083.0,1176700
+sector_4,Construction,Pembinaan,male,2010,1587.0,1200.0,503500
+sector_4,Construction,Pembinaan,male,2011,1729.0,1250.0,550000
+sector_4,Construction,Pembinaan,male,2012,1787.0,1200.0,535900
+sector_4,Construction,Pembinaan,male,2013,1886.0,1400.0,555200
+sector_4,Construction,Pembinaan,male,2014,1999.0,1500.0,599200
+sector_4,Construction,Pembinaan,male,2015,2079.0,1500.0,578100
+sector_4,Construction,Pembinaan,male,2016,2236.0,1630.0,583800
+sector_4,Construction,Pembinaan,male,2017,2558.0,1800.0,578200
+sector_4,Construction,Pembinaan,male,2018,2756.0,2093.2991004184587,566300
+sector_4,Construction,Pembinaan,male,2019,2807.0,2070.0,579600
+sector_4,Construction,Pembinaan,male,2020,2500.0,1794.0,577800
+sector_4,Construction,Pembinaan,male,2021,2292.5,1702.0,566300
+sector_5,Services,Perkhidmatan,male,2010,2140.0,1682.0,2764800
+sector_5,Services,Perkhidmatan,male,2011,2149.0,1675.0,2921400
+sector_5,Services,Perkhidmatan,male,2012,2209.0,1767.0,2961600
+sector_5,Services,Perkhidmatan,male,2013,2382.0,1900.0,3038300
+sector_5,Services,Perkhidmatan,male,2014,2569.0,2000.0,3197000
+sector_5,Services,Perkhidmatan,male,2015,2698.0,2060.0,3211200
+sector_5,Services,Perkhidmatan,male,2016,2864.0,2200.0,3216000
+sector_5,Services,Perkhidmatan,male,2017,3102.0,2300.0,3298400
+sector_5,Services,Perkhidmatan,male,2018,3350.0,2457.0,3397300
+sector_5,Services,Perkhidmatan,male,2019,3513.0,2712.0,3552800
+sector_5,Services,Perkhidmatan,male,2020,3153.0,2268.0,3614700
+sector_5,Services,Perkhidmatan,male,2021,3361.2,2636.0,3742100
+overall,Overall,Keseluruhan,female,2010,1825.0,1498.0,2716600
+overall,Overall,Keseluruhan,female,2011,1838.0,1467.0,2953900
+overall,Overall,Keseluruhan,female,2012,1935.0,1500.0,3037900
+overall,Overall,Keseluruhan,female,2013,2072.0,1600.0,3118900
+overall,Overall,Keseluruhan,female,2014,2259.0,1700.0,3321800
+overall,Overall,Keseluruhan,female,2015,2380.0,1855.0,3299200
+overall,Overall,Keseluruhan,female,2016,2532.0,2000.0,3389700
+overall,Overall,Keseluruhan,female,2017,2772.0,2145.0,3525900
+overall,Overall,Keseluruhan,female,2018,2959.0,2227.0,3551400
+overall,Overall,Keseluruhan,female,2019,3108.0,2370.0,3759300
+overall,Overall,Keseluruhan,female,2020,2889.0,2019.0,3839600
+overall,Overall,Keseluruhan,female,2021,2968.1,2145.0,3978000
+sector_1,Agriculture,Pertanian,female,2010,927.0,598.0,45700
+sector_1,Agriculture,Pertanian,female,2011,963.0,630.0,34900
+sector_1,Agriculture,Pertanian,female,2012,1068.0,700.0,38500
+sector_1,Agriculture,Pertanian,female,2013,1268.0,800.0,48300
+sector_1,Agriculture,Pertanian,female,2014,984.0,848.0,55200
+sector_1,Agriculture,Pertanian,female,2015,1125.0,946.0,48600
+sector_1,Agriculture,Pertanian,female,2016,1401.0,1200.0,38100
+sector_1,Agriculture,Pertanian,female,2017,1475.0,1250.0,41200
+sector_1,Agriculture,Pertanian,female,2018,1486.0,1113.0,42500
+sector_1,Agriculture,Pertanian,female,2019,1638.0,1265.0,45100
+sector_1,Agriculture,Pertanian,female,2020,1505.0,1211.0,50900
+sector_1,Agriculture,Pertanian,female,2021,1797.9,1250.0,52000
+sector_2,Mining and quarrying,Perlombongan dan pengkuarian,female,2010,3345.0,3500.0,10100
+sector_2,Mining and quarrying,Perlombongan dan pengkuarian,female,2011,4280.0,3900.0,13500
+sector_2,Mining and quarrying,Perlombongan dan pengkuarian,female,2012,3159.0,2800.0,16300
+sector_2,Mining and quarrying,Perlombongan dan pengkuarian,female,2013,3546.0,3000.0,15000
+sector_2,Mining and quarrying,Perlombongan dan pengkuarian,female,2014,4357.0,2900.0,17200
+sector_2,Mining and quarrying,Perlombongan dan pengkuarian,female,2015,3773.0,3600.0,12600
+sector_2,Mining and quarrying,Perlombongan dan pengkuarian,female,2016,4506.0,3600.0,23700
+sector_2,Mining and quarrying,Perlombongan dan pengkuarian,female,2017,4969.0,3650.0,16600
+sector_2,Mining and quarrying,Perlombongan dan pengkuarian,female,2018,5795.0,3375.0,17300
+sector_2,Mining and quarrying,Perlombongan dan pengkuarian,female,2019,6260.0,5133.0,16800
+sector_2,Mining and quarrying,Perlombongan dan pengkuarian,female,2020,4439.0,3716.0,19200
+sector_2,Mining and quarrying,Perlombongan dan pengkuarian,female,2021,4467.7,3807.0,20800
+sector_3,Manufacturing,Pembuatan,female,2010,1322.0,1000.0,535800
+sector_3,Manufacturing,Pembuatan,female,2011,1346.0,1090.0,593600
+sector_3,Manufacturing,Pembuatan,female,2012,1445.0,1100.0,566500
+sector_3,Manufacturing,Pembuatan,female,2013,1537.0,1200.0,544600
+sector_3,Manufacturing,Pembuatan,female,2014,1720.0,1400.0,579100
+sector_3,Manufacturing,Pembuatan,female,2015,1769.0,1310.0,532400
+sector_3,Manufacturing,Pembuatan,female,2016,1876.0,1500.0,573300
+sector_3,Manufacturing,Pembuatan,female,2017,2036.0,1600.0,602400
+sector_3,Manufacturing,Pembuatan,female,2018,2091.0,1626.0,582800
+sector_3,Manufacturing,Pembuatan,female,2019,2136.0,1672.0,635200
+sector_3,Manufacturing,Pembuatan,female,2020,2252.0,1638.0,659100
+sector_3,Manufacturing,Pembuatan,female,2021,2414.2,1863.0,722900
+sector_4,Construction,Pembinaan,female,2010,2025.0,1600.0,79200
+sector_4,Construction,Pembinaan,female,2011,2005.0,1500.0,89200
+sector_4,Construction,Pembinaan,female,2012,1971.0,1600.0,90000
+sector_4,Construction,Pembinaan,female,2013,2050.0,1600.0,85200
+sector_4,Construction,Pembinaan,female,2014,2182.0,1800.0,92900
+sector_4,Construction,Pembinaan,female,2015,2438.0,2000.0,97900
+sector_4,Construction,Pembinaan,female,2016,2122.0,2000.0,96000
+sector_4,Construction,Pembinaan,female,2017,2752.0,2300.0,104300
+sector_4,Construction,Pembinaan,female,2018,3158.0,2403.0,110100
+sector_4,Construction,Pembinaan,female,2019,3115.0,2488.0,103000
+sector_4,Construction,Pembinaan,female,2020,2852.0,2221.0,113000
+sector_4,Construction,Pembinaan,female,2021,2611.2,2170.0,117200
+sector_5,Services,Perkhidmatan,female,2010,1962.0,1580.0,2045800
+sector_5,Services,Perkhidmatan,female,2011,1961.0,1560.0,2222800
+sector_5,Services,Perkhidmatan,female,2012,2058.0,1695.0,2326600
+sector_5,Services,Perkhidmatan,female,2013,2200.0,1800.0,2425800
+sector_5,Services,Perkhidmatan,female,2014,2396.0,1895.0,2577200
+sector_5,Services,Perkhidmatan,female,2015,2519.0,2000.0,2607700
+sector_5,Services,Perkhidmatan,female,2016,2687.0,2050.0,2658500
+sector_5,Services,Perkhidmatan,female,2017,2939.0,2260.0,2761400
+sector_5,Services,Perkhidmatan,female,2018,3136.0,2388.0,2798800
+sector_5,Services,Perkhidmatan,female,2019,3321.0,2645.0,2959200
+sector_5,Services,Perkhidmatan,female,2020,3044.0,2243.0,2997500
+sector_5,Services,Perkhidmatan,female,2021,3122.1,2403.0,3065200
